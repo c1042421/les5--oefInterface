@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:oefInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="131" Width="525">
+    <StackPanel>
+        <Button Name="btnIntrest" Height="50" Content="Bereken intrest" Click="btnIntrest_Click"></Button>
+        <Button Name="btnOppervlakte" Height="50" Content="Bereken oppervlakte" Click="btnOppervlakte_Click"></Button>
+    </StackPanel>
 </Window>

@@ -24,5 +24,17 @@ namespace oefInterface
         {
             InitializeComponent();
         }
+
+        private void btnIntrest_Click(object sender, RoutedEventArgs e)
+        {
+            Bankrekening bankrekening = new Bankrekening(2.3, 1000);
+            MessageBox.Show(bankrekening.ToString());
+        }
+
+        private void btnOppervlakte_Click(object sender, RoutedEventArgs e)
+        {
+            Figuur figuur = new Figuur(10, 30);
+            MessageBox.Show(figuur.ToString());
+        }
     }
 }
